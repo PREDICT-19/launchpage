@@ -73,7 +73,7 @@ const Hero = ({
                     Read More
                   </Button>
                   <Button tag="a" color="dark" wideMobile href="https://mouroum-sharing.s3.eu-central-1.amazonaws.com/PREDICT-19.apk">
-                    Download (Early Alpha)
+                    Download  (Early Alpha)
                   </Button>
                 </ButtonGroup>
               </div>

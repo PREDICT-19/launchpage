@@ -19,7 +19,7 @@ const defaultProps = {
 }
 
 const Image = ({
-  className,
+  className = "",
   src,
   width,
   height,

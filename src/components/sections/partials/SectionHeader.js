@@ -11,16 +11,11 @@ const propTypes = {
   tag: PropTypes.oneOf(['h1', 'h2', 'h3'])
 }
 
-const defaultProps = {
-  children: null,
-  tag: 'h2'
-}
-
 const SectionHeader = ({
-  className,
+  className = "",
   data,
-  children,
-  tag,
+  children = null,
+  tag = 'h2',
   ...props
 }) => {
 
@@ -58,6 +53,5 @@ const SectionHeader = ({
 }
 
 SectionHeader.propTypes = propTypes;
-SectionHeader.defaultProps = defaultProps;
 
 export default SectionHeader;
