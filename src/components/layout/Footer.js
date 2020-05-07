@@ -45,7 +45,7 @@ const Footer = ({
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             <FooterNav />
-            <div className="footer-copyright">© 2020, PREDICT19.  All right reserved.<br/>Theme by <a href="https://cruip.com">Cruip</a></div>
+            <div className="footer-copyright">© 2020, PREDICT 19.  All right reserved.<br/>Theme by <a href="https://cruip.com">Cruip</a></div>
           </div>
         </div>
       </div>
